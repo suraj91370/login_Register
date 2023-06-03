@@ -78,11 +78,8 @@ public class LoginServlet extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-	String uname=request.getParameter("uname");
-String password	=request.getParameter("password");
-	String email=request.getParameter("email");
-String phone =	request.getParameter("phone");
-	
+		// TODO Auto-generated method stub
+		doGet(request, response);
 	}
 
 }
